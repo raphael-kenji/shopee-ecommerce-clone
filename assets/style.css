@@ -4,44 +4,46 @@
   padding: 0;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
-.cabecalho{
+.cabecalho {
     width: 100%;
 }
 
-.cabecalho-topo{
+/* Header Styles visualizar-produto-especifico*/
+
+.cabecalho-topo {
     display: flex;
     background-color: #f05336;
     padding: 1rem 2rem;
 }
 
-.logo-img{
+.logo-img {
     height: 2.7rem;
     width: auto;
     display: block;
 }
 
-.cabecalho-logo{
+.cabecalho-logo {
     color: #ffffff;
     font-size: 2.5rem;
     font-weight: 600;
 }
 
-.cabecalho-nav{
+.cabecalho-nav {
     background-color: #d9d9d9;
-    padding: 0,8rem 2rem;
+    padding: 0.8rem 2rem;
 }
 
-.nav-lista{
+.nav-lista {
     list-style: none;
     display: flex;
     gap: 1.5rem;
     justify-content: center;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     color: #ee4d2d;
     font-size: 1.1rem;
@@ -51,54 +53,54 @@ body{
     transition: all 0.3s ease;
 }
 
-nav a:hover{
+nav a:hover {
     background-color: #bfbfbf;
     color: #333333;
 }
 
-.conteudo-principal{
+.conteudo-principal {
     max-width: 1200px;
     margin: 4rem auto;
     padding: 0 1.5rem;
 }
 
-.produto-galeria{
+.produto-galeria {
     display: flex;
     gap: 1.5rem;
 }
 
-.miniaturas{
+.miniaturas {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
 }
 
-.foto-principal{
+.foto-principal {
     max-width: 25rem;
     width: 100%;
     height: 26rem;
     display: block;
 }
 
-.miniatura{
+.miniatura {
     width: 4.5rem;
     height: 4.5rem;
     object-fit: cover;
     cursor: pointer;
-    border: 1px solic #d9d9d9;
+    border: 1px solid #d9d9d9;
 }
 
-.ativo{
+.ativo {
     border: 2px solid #f3593d;
 }
 
-.produto{
+.produto {
     display: flex;
     gap: 2rem;
 }
 
 .produto-galeria,
-.produto-detalhes{
+.produto-detalhes {
     width: 50%;
 }
 
@@ -132,7 +134,7 @@ nav a:hover{
     transform: scale(1.05);
 }
 
-.produto-titulo{
+.produto-titulo {
     font-size: 1.8rem;
     line-height: 1.3;
 }
@@ -149,7 +151,7 @@ nav a:hover{
     gap: 1.2rem;
 }
 
-.opcoes-butoes{
+.opcoes-butoes {
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
@@ -159,4 +161,242 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+/* Header Styles login*/
+
+.cabecalho-login {
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-login-marca {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cabecalho-logo-texto {
+    color: #f05336;
+    font-weight: 550;
+    font-size: 1.5rem;
+}
+
+.cabecalho-subtitulo {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cabecalho-login-conteudo {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-ajuda {
+    text-decoration: none;
+    color: #f05336;
+    font-size: 1rem;
+}
+
+.login-container {
+    background-color: #f05336;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 2rem;
+}
+
+.login-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 4px;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.input-login {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    outline: none;
+}
+
+.input-login:focus {
+    border-color: #f05336;
+}
+
+.btn-login {
+    background-color: #f05336;
+    color: #ffffff;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.links-auxiliares {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.links-auxiliares a {
+    text-decoration: none;
+    color: #0055aa;
+    font-size: 0.85rem;
+}
+
+.divisor {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    width: 100%;
+}
+
+.linha {
+    flex: 1;
+    height: 1px;
+    background-color: #d9d9d9;
+}
+
+.divisor-texto {
+    color: #888888;
+    font-size: 0.85rem;
+}
+
+.botoes-sociais {
+    display: flex;
+    gap: 0.8rem;
+    width: 100%;
+}
+
+.btn-social {
+    flex: 1;
+    padding: 0.6rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.titulo-login {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.rodape-card {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #888888;
+    margin-bottom: 1rem;
+}
+
+.rodape-card a {
+    text-decoration: none;
+    color: #f05336;
+    font-weight: 550;
+}
+
+.footer-conteudo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.footer-coluna h3 {
+    font-size: 0.95rem;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.footer-coluna ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-coluna li a {
+    text-decoration: none;
+    color: #888888;
+    font-size: 0.85rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.formas-pagamento {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    max-width: 200px;
+}
+
+.formas-pagamento img {
+    width: 45px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.footer-coluna li a {
+    display: flex;
+    align-items: center;    
+    gap: 0.5rem;
+}
+
+.lojas-app {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.lojas-app img {
+    width: 20px;
+    height: auto;
+    display: block;
+}
+
+.app-download {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.qr-code {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.footer-copyright {
+    border-top: 1px solid #e0e0e0;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #333333;
 }
