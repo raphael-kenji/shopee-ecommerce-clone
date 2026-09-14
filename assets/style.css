@@ -400,3 +400,16 @@ nav a:hover {
     font-size: 0.85rem;
     color: #333333;
 }
+
+/* reset-password Styles */
+
+.img-voltar {
+    width: 1.2rem;
+    height: auto;
+    cursor: pointer;
+}
+
+.link-voltar {
+    display: block;
+    margin-bottom: 0.5rem;
+}

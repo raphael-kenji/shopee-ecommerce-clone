@@ -24,8 +24,8 @@ O objetivo principal deste projeto foi construir a interface completa do front-e
 
 ## 🖥️ Telas Desenvolvidas
 
-* [ ] **Login** (com redirecionamento para Home e Redefinição de Senha)
-* [ ] **Redefinição de Senha**
+* [x] **Login** (com redirecionamento para Home e Redefinição de Senha)
+* [x] **Redefinição de Senha**
 * [ ] **Home Page** (com carrossel de banners)
 * [x] **Visualização de um Produto** (detalhes, seleção de tamanhos e cores)
 * [ ] **Cadastros:**
