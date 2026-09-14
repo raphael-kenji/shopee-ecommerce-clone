@@ -11,7 +11,7 @@ body {
     width: 100%;
 }
 
-/* Header Styles visualizar-produto-especifico*/
+/* iew-product Styles */
 
 .cabecalho-topo {
     display: flex;
@@ -163,7 +163,7 @@ nav a:hover {
     gap: 1rem;
 }
 
-/* Header Styles login*/
+/* login Styles */
 
 .cabecalho-login {
     display: flex;
@@ -223,6 +223,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .input-login {
@@ -315,6 +316,10 @@ nav a:hover {
     text-decoration: none;
     color: #f05336;
     font-weight: 550;
+}
+
+.footer {
+    background-color: #f5f5f5;
 }
 
 .footer-conteudo {
@@ -412,4 +417,8 @@ nav a:hover {
 .link-voltar {
     display: block;
     margin-bottom: 0.5rem;
+}
+
+.bg-branco {
+    background-color: #ffffff;
 }
