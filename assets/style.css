@@ -11,7 +11,7 @@ body {
     width: 100%;
 }
 
-/* iew-product Styles */
+/* view-product Styles */
 
 .cabecalho-topo {
     display: flex;
@@ -27,13 +27,13 @@ body {
 
 .cabecalho-logo {
     color: #ffffff;
-    font-size: 2.5rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 550;
 }
 
 .cabecalho-nav {
     background-color: #d9d9d9;
-    padding: 0.8rem 2rem;
+    padding: 0rem 2rem;
 }
 
 .nav-lista {
@@ -54,7 +54,7 @@ body {
 }
 
 nav a:hover {
-    background-color: #bfbfbf;
+    background-color: #fd782c;
     color: #333333;
 }
 
@@ -421,4 +421,171 @@ nav a:hover {
 
 .bg-branco {
     background-color: #ffffff;
+}
+
+/* home Styles */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cabecalho-home .link-sair {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    align-self: center;
+}
+
+.cabecalho-home .cabecalho-nav {
+    background-color: #ff650c; 
+}
+
+.cabecalho-home .nav-link {
+    color: #ffffff; 
+    border-radius: 6px;
+    padding: 0.15rem 0.3rem;
+    transition: all 0.3s ease;
+}
+
+.cabecalho-home .cabecalho-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f05336;
+    padding: 1rem 2rem;
+}
+
+.cabecalho-home main {
+    margin-top: 1.5rem;
+}
+
+
+.cabecalho-home main {
+    margin-top: 1.5rem;
+}
+
+#carrosselXhopii {
+    max-width: 1200px;  
+    margin: 5rem auto;    
+    border-radius: 8px; 
+    overflow: hidden;  
+}
+
+#carrosselXhopii .carousel-item img {
+    height: 300px;      
+    object-fit: cover;  
+}
+
+.cabecalho-home .nav-lista {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 1.5rem;           
+    list-style: none;        
+    padding: 1rem 0;              
+    margin: 0;           
+}
+
+.banner-novo-usuario {
+    margin: 3rem auto;
+    max-width: 1150px;
+    text-align: center;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.descobertas-container {
+    max-width: 1275px;
+    margin: 2rem auto;
+    padding: 0 10px;
+}
+
+.descobertas-container .descobertas-cabecalho {
+    text-align: center;
+    border-bottom: 2px solid #ee4d2d;
+    padding-bottom: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.descobertas-container .descobertas-titulo {
+    color: #ee4d2d;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.descobertas-container .produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.descobertas-container .produto-card-link {
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 0.8rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    color: inherit;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 100%;
+}
+
+.descobertas-container .produto-card-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.descobertas-container .produto-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.descobertas-container .produto-img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.descobertas-container .produto-titulo {
+    font-size: 0.9rem;
+    color: #333333;
+    margin: 0.5rem 0;
+}
+
+.descobertas-container .card-detalhes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.descobertas-container .produto-preco {
+    color: #ee4d2d;
+    font-weight: bold;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.descobertas-container .produto-qtd {
+    color: #757575;
+    font-size: 0.7rem;
+    white-space: nowrap;
+}
+
+.descobertas-container .produto-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
