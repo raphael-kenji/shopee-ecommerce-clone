@@ -618,7 +618,8 @@ nav a:hover {
 .form-cadastro input[type="text"],
 .form-cadastro input[type="date"],
 .form-cadastro input[type="email"],
-.form-cadastro input[type="password"] {
+.form-cadastro input[type="password"], 
+.form-cadastro input[type="number"] {
     width: 75%;
     padding: 0.8rem;
     border: 1px solid #d9d9d9;
@@ -704,4 +705,10 @@ nav a:hover {
     flex-direction: row;
     align-items: center;
     gap: 0.8rem; 
+}
+
+.conteudo-principal-cadastro {
+    background-color: #d3d3d3; 
+    width: 100%;
+    padding: 3rem 1rem; 
 }
