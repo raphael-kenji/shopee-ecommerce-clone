@@ -31,14 +31,8 @@ O objetivo principal deste projeto foi construir a interface completa do front-e
 * [ ] **Cadastros:**
   * Cadastro de Cliente
   * Cadastro de Funcionário
-  * Cadastro de Produto
-  * Cadastro de Cupom de Desconto
-  * Cadastro de Loja
+  * Cadastro de Produto 
 * [ ] **Visualizações / Listagens:**
-  * Listagem de Clientes
-  * Listagem de Funcionários
   * Listagem de Produtos
-  * Listagem de Lojas
-  * Listagem de Cupons de Desconto
 
 ---
