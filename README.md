@@ -28,7 +28,7 @@ O objetivo principal deste projeto foi construir a interface completa do front-e
 * [x] **Redefinição de Senha**
 * [x] **Home Page** (com carrossel de banners)
 * [x] **Visualização de um Produto** (detalhes, seleção de tamanhos e cores)
-* [ ] **Cadastros:**
+* [x] **Cadastros:**
   * Cadastro de Cliente
   * Cadastro de Funcionário
   * Cadastro de Produto 

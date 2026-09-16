@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../assets/style.css">
+    <title>Cadastro de Produto</title>
+</head>
+<body>
+    <header class="cabecalho cabecalho-home">
+        <div class="cabecalho-topo">
+            <div class="logo-container">
+                <img src="../assets/img/logo.png" alt="Logotipo Xhopii" class="logo-img">
+                <h1 class="cabecalho-logo">Xhopii</h1>
+            </div>
+            <a href="../view/login.html" class="link-sair">Sair</a>
+        </div>
+        <nav class="cabecalho-nav">
+            <ul class="nav-lista">
+                <li><a  href="#" class="nav-link">Home</a></li>
+                <li><a  href="#" class="nav-link">Cadastro Cliente</a></li>
+                <li><a  href="#" class="nav-link">Cadastro Funcionário</a></li>
+                <li><a  href="#" class="nav-link">Cadastro produto</a></li>
+                <li><a  href="#" class="nav-link">Ver Clientes</a></li>
+                <li><a  href="#" class="nav-link">Ver Funcionários</a></li>
+                <li><a  href="#" class="nav-link">Ver Produtos</a></li>
+            </ul>
+        </nav>        
+    </header>
+    <main class="conteudo-principal-cadastro">
+        <div class="cadastro-container">
+            <h2>Cadastrar Produto</h2>
+            <form action="#" method="POST" class="form-cadastro">
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="text" name="fabricante" placeholder="Fabricante" required>
+                <input type="number" name="preco" placeholder="Preço" step="0.01" min="0" required>
+                <input type="number" name="quantidade" placeholder="Quantidade" min="0" required>
+                <div class="campo-foto">
+                    <label for="foto" class="label-foto">Selecionar foto do produto:</label>
+                    <div class="arquivo-selecao">
+                        <label for="foto" class="btn-escolher-arquivo">Escolher arquivo</label>
+                        <span id="nome-arquivo">Nenhum arquivo escolhido</span>
+                    </div>
+                    <input type="file" id="foto" name="foto_perfil" accept="image/*" class="input-file-escondido">
+                </div>
+                <button type="submit" class="btn-cadastrar">CADASTRAR</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-conteudo">
+            <section class="footer-coluna">
+                <h3>ATENDIMENTO AO CLIENTE</h3>
+                <ul>
+                    <li><a href="#">Central de Ajuda</a></li>
+                    <li><a href="#">Como Comprar</a></li>
+                    <li><a href="#">Métodos de Pagamento</a></li>
+                    <li><a href="#">Devolução e Reembolso</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                    <li><a href="#">Ouvidoria</a></li>
+                </ul>
+            </section>
+            <section class="footer-coluna">
+                <h3>SOBRE A XHOPII</h3>
+                <ul>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Políticas Xhopii</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Programa de Aliados da Xhopii</a></li>
+                    <li><a href="#">Seja um Entregador Xhopii</a></li>
+                    <li><a href="#">Ofertas Relâmpago</a></li>
+                    <li><a href="#">Xhopii Blog</a></li>
+                    <li><a href="#">Empresa</a></li>
+                </ul>
+            </section>
+            <section class="footer-coluna">
+                <h3>PAGAMENTO</h3>
+                <div class="formas-pagamento">
+                    <img src="../assets/img/pix.svg" alt="Pix">
+                    <img src="../assets/img/boleto.svg" alt="Boleto">
+                    <img src="../assets/img/amex.svg" alt="American Express">
+                    <img src="../assets/img/visa.svg" alt="Visa">
+                    <img src="../assets/img/mastercard.svg" alt="Mastercard">
+                    <img src="../assets/img/hipercard.svg" alt="Hipercard">
+                    <img src="../assets/img/elo.svg" alt="Elo">
+                </div>
+            </section>
+            <section class="footer-coluna">
+                <h3>SIGA-NOS</h3>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i> YouTube</a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                </ul>
+            </section>
+            <section class="footer-coluna">
+                <h3>BAIXE NOSSO APP</h3>
+                <div class="app-download">
+                    <img src="../assets/img/qr-code.png" alt="QR Code" class="qr-code">
+                    <div class="lojas-app">
+                        <ul>
+                            <li><a href="#"><img src="../assets/img/playstore.svg" alt="Google Play">Google Play</a></li>
+                            <li><a href="#"><img src="../assets/img/app-store.svg" alt="App Store">App Store</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Xhopii. Todos os direitos acadêmicos reservados</p>
+        </div>       
+    </footer>
+</body>
+</html>
