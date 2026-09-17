@@ -11,7 +11,7 @@ body {
     width: 100%;
 }
 
-/* view-product Styles */
+/* product Styles */
 
 .cabecalho-topo {
     display: flex;
@@ -520,13 +520,13 @@ nav a:hover {
     margin: 0;
 }
 
-.descobertas-container .produtos-grid {
+.produtos-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
 }
 
-.descobertas-container .produto-card-link {
+.produto-card-link {
     background-color: #ffffff;
     border-radius: 4px;
     padding: 0.8rem;
@@ -540,51 +540,51 @@ nav a:hover {
     height: 100%;
 }
 
-.descobertas-container .produto-card-link:hover {
+.produto-card-link:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.descobertas-container .produto-card {
+.produto-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
 }
 
-.descobertas-container .produto-img {
+.produto-img {
     width: 100%;
     height: auto;
     border-radius: 4px;
 }
 
-.descobertas-container .produto-titulo {
+.produto-titulo {
     font-size: 0.9rem;
     color: #333333;
     margin: 0.5rem 0;
 }
 
-.descobertas-container .card-detalhes {
+.card-detalhes {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-.descobertas-container .produto-preco {
+.produto-preco {
     color: #ee4d2d;
     font-weight: bold;
     font-size: 0.9rem;
     white-space: nowrap;
 }
 
-.descobertas-container .produto-qtd {
+.produto-qtd {
     color: #757575;
     font-size: 0.7rem;
     white-space: nowrap;
 }
 
-.descobertas-container .produto-card-link {
+.produto-card-link {
     text-decoration: none;
     color: inherit;
     display: block;
@@ -711,4 +711,44 @@ nav a:hover {
     background-color: #d3d3d3; 
     width: 100%;
     padding: 3rem 1rem; 
+}
+
+/* view-product Styles */
+
+.produto-fabricante,
+.produto-descricao {
+    font-size: 0.75rem;
+    color: #555555;
+    margin: 0.2rem 0;
+    line-height: 1.2;
+}
+
+.produto-fabricante strong,
+.produto-descricao strong {
+    color: #333333;
+    font-weight: 600;
+}
+
+.produtos-container {
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.produtos-titulo-secao {
+    color: #ee4d2d;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+.conteudo-principal-produtos {
+    background-color: #d3d3d3;
+    padding: 2rem 1rem;
+    min-height: calc(100vh - 150px);
 }
