@@ -32,7 +32,7 @@ O objetivo principal deste projeto foi construir a interface completa do front-e
   * Cadastro de Cliente
   * Cadastro de Funcionário
   * Cadastro de Produto 
-* [ ] **Visualizações / Listagens:**
+* [x] **Visualizações / Listagens:**
   * Listagem de Produtos
 
 ---
